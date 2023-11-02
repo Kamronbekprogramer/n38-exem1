@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="css/style.min.css" />
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
   </head>
+  <style>
+    .herobackground {
+      background-image: url(./images/cover6.png);
+      margin: 0;
+      height: 700px;
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  </style>
 
   <body>
     <header class="header">
@@ -20,7 +30,7 @@
             <a href="#" class="logo-link">
               <!-- / images -->
               <img
-                src="images/Indicorp.svg"
+                src="./images/Indicorp.svg"
                 alt="images of card about"
                 class="logo-img"
               />
@@ -53,9 +63,12 @@
       <!-- navbar end -->
 
       <!-- header-hero -->
-      <section class="site-hero">
+      <section class="site-hero herobackground">
         <div class="container">
-          <div class="site-hero__left">
+          <div
+            class="site-hero__left"
+            style="padding-top: 100px; margin-bottom: 40px"
+          >
             <h1 class="site-hero__heading">EMPOWER YOUR BUSINESS</h1>
             <h4 class="site-hero__paragriph">
               We know how large objects will act, but things on a small scale.

@@ -49,7 +49,7 @@
   .site-hero {
     width: 100%;
     height: 670px;
-    margin: 80px 0px;
+    background-image: url(../images//cover\ \(6\).png);
   }
   .site-hero__left {
     width: 509px;
@@ -114,7 +114,7 @@
     gap: 10px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 100px;
   }
   .card {
     width: 330px;
@@ -123,6 +123,7 @@
     background: #fff;
     /* SHADOW */
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    
   }
   .card-images {
     width: 48px;
